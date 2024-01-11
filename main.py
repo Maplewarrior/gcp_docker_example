@@ -3,6 +3,7 @@ from sklearn.model_selection import train_test_split
 
 
 if __name__ == '__main__':
+    # load data
     digits = datasets.load_digits()
 
     # flatten the images
